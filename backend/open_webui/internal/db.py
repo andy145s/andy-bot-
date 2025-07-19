@@ -84,6 +84,7 @@ if "sqlite" in SQLALCHEMY_DATABASE_URL:
     engine = create_engine(
         SQLALCHEMY_DATABASE_URL, connect_args={"check_same_thread": False}
     )
+
     def on_connect(dbapi_connection, connection_record):
         cursor = dbapi_connection.cursor()
         if DATABASE_ENABLE_SQLITE_WAL:
@@ -91,6 +92,7 @@ if "sqlite" in SQLALCHEMY_DATABASE_URL:
         else:
             cursor.execute("PRAGMA journal_mode=DELETE")
         cursor.close()
+
     event.listen(engine, "connect", on_connect)
 else:
     if isinstance(DATABASE_POOL_SIZE, int):
