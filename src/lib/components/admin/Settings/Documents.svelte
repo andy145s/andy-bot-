@@ -360,9 +360,7 @@
 
 							<div class="my-0.5 flex gap-2 pr-2">
 								<Tooltip
-									content={$i18n.t('API Base URL for Datalab Marker service. Defaults to:
-									https://www.datalab.to/api/v1/marker'
-									)}
+									content={$i18n.t('API Base URL for Datalab Marker service. Defaults to: https://www.datalab.to/api/v1/marker')}
 									placement="top-start"
 									className="w-full"
 								>
