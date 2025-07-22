@@ -195,7 +195,7 @@
 </script>
 
 <svelte:head>
-	<title>#{channel?.name ?? 'Channel'} • Open WebUI</title>
+	<title>#{channel?.name ?? 'Channel'} • Andy Axcel IA Abierta de Andy Dominguez</title>
 </svelte:head>
 
 <div

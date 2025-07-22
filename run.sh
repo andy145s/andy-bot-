@@ -1,7 +1,7 @@
 #!/bin/bash
 
-image_name="open-webui"
-container_name="open-webui"
+image_name="andy-axcel-ia"
+container_name="andy-axcel-ia"
 host_port=3000
 container_port=8080
 

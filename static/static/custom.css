@@ -1,0 +1,45 @@
+/* Estilos personalizados para Andy Axcel IA Abierta de Andy Dominguez */
+:root {
+  --primary-color: #3498db;
+  --secondary-color: #e74c3c;
+  --accent-color: #f39c12;
+  --background-color: #f5f5f5;
+  --text-color: #333333;
+}
+
+.dark {
+  --background-color: #1a1a1a;
+  --text-color: #f5f5f5;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Personalización de botones */
+button.primary {
+  background-color: var(--primary-color);
+  color: white;
+  border-radius: 8px;
+}
+
+button.secondary {
+  background-color: var(--secondary-color);
+  color: white;
+  border-radius: 8px;
+}
+
+/* Personalización de encabezados */
+h1, h2, h3, h4, h5, h6 {
+  color: var(--primary-color);
+}
+
+/* Personalización de enlaces */
+a {
+  color: var(--accent-color);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
