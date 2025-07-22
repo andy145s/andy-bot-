@@ -141,7 +141,7 @@
 
 									{#if $config?.features?.enable_version_update_check}
 										<a
-											href="https://github.com/open-webui/open-webui/releases/tag/v{version.latest}"
+											href="https://github.com/andy-axcel-ia/andy-axcel-ia/releases/tag/v{version.latest}"
 											target="_blank"
 										>
 											{updateAvailable === null
@@ -185,7 +185,7 @@
 									{$i18n.t('Help')}
 								</div>
 								<div class=" text-xs text-gray-500">
-									{$i18n.t('Discover how to use Open WebUI and seek support from the community.')}
+									{$i18n.t('Discover how to use Andy Axcel IA Abierta de Andy Dominguez and seek support from the community.')}
 								</div>
 							</div>
 
@@ -203,21 +203,21 @@
 								<a href="https://discord.gg/5rJgQTnV4s" target="_blank">
 									<img
 										alt="Discord"
-										src="https://img.shields.io/badge/Discord-Open_WebUI-blue?logo=discord&logoColor=white"
+										src="https://img.shields.io/badge/Discord-Open_Andy Axcel IA-blue?logo=discord&logoColor=white"
 									/>
 								</a>
 
-								<a href="https://twitter.com/OpenWebUI" target="_blank">
+								<a href="https://twitter.com/OpenAndy Axcel IA" target="_blank">
 									<img
 										alt="X (formerly Twitter) Follow"
-										src="https://img.shields.io/twitter/follow/OpenWebUI"
+										src="https://img.shields.io/twitter/follow/OpenAndy Axcel IA"
 									/>
 								</a>
 
-								<a href="https://github.com/open-webui/open-webui" target="_blank">
+								<a href="https://github.com/andy-axcel-ia/andy-axcel-ia" target="_blank">
 									<img
 										alt="Github Repo"
-										src="https://img.shields.io/github/stars/open-webui/open-webui?style=social&label=Star us on Github"
+										src="https://img.shields.io/github/stars/andy-axcel-ia/andy-axcel-ia?style=social&label=Star us on Github"
 									/>
 								</a>
 							</div>
@@ -671,7 +671,7 @@
 
 					<div class="mb-2.5 w-full justify-between">
 						<div class="flex w-full justify-between">
-							<div class=" self-center text-xs font-medium">{$i18n.t('WebUI URL')}</div>
+							<div class=" self-center text-xs font-medium">{$i18n.t('Andy Axcel IA URL')}</div>
 						</div>
 
 						<div class="flex mt-2 space-x-2">
@@ -685,7 +685,7 @@
 
 						<div class="mt-2 text-xs text-gray-400 dark:text-gray-500">
 							{$i18n.t(
-								'Enter the public URL of your WebUI. This URL will be used to generate links in the notifications.'
+								'Enter the public URL of your Andy Axcel IA. This URL will be used to generate links in the notifications.'
 							)}
 						</div>
 					</div>
